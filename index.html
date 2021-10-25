@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="first.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <section class="start">
+            <h1 class="msg">Hey, i'm praneeth <br> and i'm a web-developer<br><span class="lol">Excuse me, what now?</span></h1>
+            <nav class="menubar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#second">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="second" class="About">
+            <h1 class="secondpage">About me</h1>
+            <p class="mhm"><i>“Hello! I'm praneeth and I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion leads me to challenge myself daily and learn new skills that help me do better work. I am a web-developer who believes in the magical realm of web-developing and the spells you can cast upon your user through the website, every website has a story to tell and i'm here to tell the story and hopefully connect with my user so that the both of us can get the most out of the website. I also happen to be a <u>panda.</u>”</i></p>
+            <div class="logos">
+                <ul>
+                    <li><a href="https://github.com/NotPraneeth" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/notpraneeth/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/rsphmm/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h1>panda recruitment form</h1>
+            <div id="container">
+                <h1>&bull; summon the panda &bull;</h1>
+                <form action="https://formspree.io/f/xayazaeb" method="post" id="contact_form">
+                  <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="YOUR NAME" name="name" id="name_input" required>
+                  </div>
+                  <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="YOUR EMAIL" name="email" id="email_input" required>
+                  </div>
+                  <div class="telephone">
+                    <label for="name"></label>
+                    <input type="text" placeholder="YOUR PHONE NUMBER (SO PANDA CAN GET IN TOUCH)" name="telephone" id="telephone_input" required>
+                  </div>
+                  <div class="subject">
+                    <label for="subject"></label>
+                    <select placeholder="Subject line" name="subject" id="subject_input" required>
+                      <option disabled hidden selected>Subject line</option>
+                      <option>RECRUITMENT</option>
+                      <option>OH MY GOD, YOUR SITE'S GOOD</option>
+                      <option>I'D LIKE TO MAKE A SUGGESTION</option>
+                    </select>
+                  </div>
+                  <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"></textarea>
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Send Message" id="form_button" />
+                  </div>
+                </form>
+              </div>
+            
+              
+        </section>
+    </head>
+</html>
